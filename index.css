@@ -1,0 +1,120 @@
+.home{
+background-color:'';
+padding:1px;
+}
+h1{
+ text-align:center;
+ color:red;
+ font-faimly:Arial;
+ font-size:100;
+ text-transform:capitalize;
+}
+ body{
+  //background-image:url("a.jpg");
+  background-color:white;
+  background-repeat:no-repeat;
+ // background-size:cover;
+}
+.recent {
+ background:black;
+color:white;
+ }
+.ilist{
+ background:black;}
+a:link{
+   color:blue;
+ }
+a:visited{
+	color:brown;}
+a:hover{
+	color:green;
+	text-decoration:underline;
+	background-color:yellow;}
+a:active{
+	color:pink;}
+a{
+  font-size:30;}
+
+.A  , .B{   display: inline-block;
+	// margin: 0 20px;
+	font-size:30;
+	padding:0.5em;
+       
+      }
+
+li.c{
+  color:red;}
+ul.A{
+  list-style-type: none;
+
+ overflow: auto;
+  background-color: #333333;
+
+}
+UL.NAME{
+list-style-type: none;
+background-color: BLACK;
+}
+LI.LISTIND1{
+COLOR:RED;
+text-decoration:underline;
+}
+
+//.responsive {
+ // box-sizing: border-box;
+//}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.gallery{
+  float: left;
+  width: 25%;
+  padding:2 px;
+ 
+}
+img {
+ height:400;}
+.gallery,.gallery{
+padding:10;
+}
+/* Clear floats after image containers */
+.responsive:after {
+  content: "";
+  clear: both;
+display:table;
+}
+
+.h1 {border:2px;
+	//display:inline-block;
+  float:left;
+   padding:3;
+   width:40%;
+
+
+}
+.li1,.li2{
+  color:WHITE;
+ TEXT-SIZE:50;
+}
+.h11{ background :black;}
+.con {color:white;}
+
+.h11:after {
+  content: "";
+  clear: both;
+display:table;
+}
+
+.page{  text-align:center;
+	
+	width:700;
+	background-color:yellow;
+ 	display:inline-block;
+	height:30;
+	word-spacing:30;
+ 	border: 1px solid blue; 
+ 	padding:20px 0;
+}
+
+
+
+
+

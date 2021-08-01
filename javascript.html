@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>javascript</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="java.js" type="text/javascript"></script>
+
+</head>
+<body>
+
+<p>If you click on the "Hide" button, I will disappear.</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+<br><br>
+<button id="fadein">fade in</button>
+<button id="fadeout">fade out</button>
+<button id="fadetoggle">fade toggle</button><br>
+<br>
+
+<div id="div1" style="width:80px;height:80px;display:none;background-color:red;"></div><br>
+<div id="div2" style="width:80px;height:80px;display:none;background-color:green;"></div><br>
+<div id="div3" style="width:80px;height:80px;display:none;background-color:blue;"></div>
+
+<br>
+
+<button  id="avascript">JAVASCRIPT</button> 
+<div class="javascript">
+hide<br>
+show<br>
+toggle<br>
+fadeIn("slow/fast  value",function)<br>fadeOut()<br>fadeToggle()<br>fadeTo()<br>
+<br>slideUp()<br>slideDown()<br>slideToggle()<br>
+stop(stopAll,goToEnd):used to stop animation or slide up and down<br>
+callback():this will execute after the first value execute</br>
+channing:simple chain ex.$hide().css("color,red").slideToggle();
+</div>
+
+<h3>html qurries</h3>
+<ul>
+<li>.text() retuen text of element</li>
+<li>.html() retuen text with html of element</li>
+<li>.val() retuen value of html content of element</li>
+$("#name").text().html().val();
+<li>attr():usted to get values</li>
+Ex $("#wus").attr("id")
+<li>append,prepend(),before,after()</li><br>
+<li>remove:removes element;  empty:empty the element</li>+
+</ul>
+
+you can set values using these in proper manner
+
+<h3> classes in html </h3>
+we can add remove and toggle css class in html
+ex:$(p).toggleClass("classname");
+but this class name should exist in css file
+
+<h4>css file</h4>
+we can use .css to get and set a value in html.css properties
+
+<button id="img1">toggle img1</button>
+<img id="down1" src="C:\Users\lehar\Downloads\downloa.png" >
+<br>
+
+<button id="img2">toggle img2</button>
+<br>
+<img id="down2" src="C:\Users\lehar\Downloads\download.png" >
+
+</body>
+</html>

@@ -1,0 +1,54 @@
+h1{
+ text-align:center;
+ color:red;
+ font-faimly:Arial;
+ font-size:100;
+ text-transform:capitalize;
+}
+a:link{
+   color:blue;
+ }
+a:visited{
+	color:brown;}
+a:hover{
+	color:green;
+	text-decoration:underline;
+	//background-color:yellow;}
+a:active{
+	color:pink;}
+a{
+  font-size:30;}
+
+.link1{
+	text-align:center;
+	background:pink;
+	padding:15;
+	margin:2;
+}
+.link2{
+	text-align:center;
+	background:pink;
+	margin:2;
+	padding:15;
+}
+p{
+ font-size:30;
+ color:white;
+background:blue;
+ margin:2;
+ padding:5;
+}
+.image{background:black;}
+
+.li1,.li2{
+  color:WHITE;
+ TEXT-SIZE:50;
+}
+.h11{ background :black;}
+.con {color:white;}
+
+.h11:after {
+  content: "";
+  clear: both;
+display:table;
+}

@@ -1,0 +1,27 @@
+<html>
+<head>
+<title>coderun</title>
+</head>
+<body>
+<h3>code is</h3>
+<script>
+function multiply(n1) {
+ var n=document.getElementById(n1).value;
+ if(n.length==16)
+ console.log("valid");
+else
+ document.write("invalid");
+} 
+ 
+</script>
+<div>
+1st Number :<input type="text" id="n1" placeholder="character"><br>
+
+
+<button type="button" onclick="multiply('n1')">multiply</button>
+
+<br>
+result is: 
+<p id="result"></p>
+</body>
+</html>
